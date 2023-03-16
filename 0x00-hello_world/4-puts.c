@@ -1,10 +1,10 @@
-# include <stdio.h>
 /**
- * function_name - entry point
+ * main - runtime begins here
  *
- * description: this is where our runtime begins
+ * puts: outputs whatever is preset
  * Return: return value is 0
  */
+# include <stdio.h>
 int main(void)
 {
 	puts("\"Programming is like building a multilingual puzzle");
