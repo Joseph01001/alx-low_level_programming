@@ -7,7 +7,7 @@ int main(void)
 	/**
 	*puts- outputs "Programming is like building a multilingual puzzle"
 	*/
-	puts("\"Programming is like building a multilingual puzzle\n");
+	puts("\"Programming is like building a multilingual puzzle");
 	/**
 	*return- value is 0
 	*/
