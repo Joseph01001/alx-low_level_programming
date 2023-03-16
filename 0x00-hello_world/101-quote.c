@@ -3,7 +3,7 @@
 /**
  * main - runtime begins here
  *
- * fputs: outputs preset text
+ * fput: outputs preset text
  * return: the returned value is 1
  */
 int main(void)
