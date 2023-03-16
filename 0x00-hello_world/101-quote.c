@@ -3,11 +3,11 @@
 /**
  * main - runtime begins here
  *
- * fput: outputs preset text
+ * fputs: outputs preset text
  * return: the returned value is 1
  */
 int main(void)
 {
-	fput("and that piece of art is useful\" - Dora Korpar, 2015-10-19\n", stdout);
+	fputs("and that piece of art is useful\" - Dora Korpar, 2015-10-19\n", stdout);
 	return (1);
 }
