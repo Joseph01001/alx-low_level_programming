@@ -7,20 +7,20 @@
  */
 int main(void)
 {
-	int 1num1, 2num2;
+	int num1, num2;
 
-	for (1num1 = 0; 1num1 < 100; 1num1++)
+	for (num1 = 0; num1 < 100; num1++)
 	{
-		for (2num2 = 0; 2num2 < 100; 2num2++)
+		for (num2 = 0; num2 < 100; num2++)
 		{
-			if (1num1 < 2num2)
+			if (num1 < num2)
 			{
-				putchar((1num1 / 10) + 48);
-				putchar((1num1 % 10) + 48);
+				putchar((num1 / 10) + 48);
+				putchar((num1 % 10) + 48);
 				putchar(' ');
-				putchar((2num2 / 10) + 48);
-				putchar((2num2 % 10) + 48);
-				if (i 1num1 != 98 || 2num2 != 99)
+				putchar((num2 / 10) + 48);
+				putchar((num2 % 10) + 48);
+				if (num1 != 98 || num2 != 99)
 				{
 					putchar(',');
 					putchar(' ');
