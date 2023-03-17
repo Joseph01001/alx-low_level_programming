@@ -19,7 +19,7 @@ int main(void)
 	}
 	if (n == 0)
 	{
-		printf("%d is 0\n", n);
+		printf("%d is zero\n", n);
 	}
 	if (n < 0)
 	{
