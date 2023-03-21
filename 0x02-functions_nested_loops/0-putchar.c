@@ -1,11 +1,11 @@
 #include "main.h"
 /**
- * print_alphabet - runtime begins here
+ * main - runtime begins here
  *
  * Description: prints _putchar, followed by new line
  * Return: returns 0 (success)
  */
-void print_alphabet(void)
+int main(void)
 
 {
 	_putchar("_");
