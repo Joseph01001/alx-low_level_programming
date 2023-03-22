@@ -55,6 +55,15 @@ void print_to_98(int n)
 			_putchar(',');
 			_putchar(' ');
 		}
+		else if (n < -99)
+		{
+			_putchar('-');
+			_putchar((d / 100) + '0');
+			_putchar((n - (d / 100)) + '0');
+			_putchar((d % 10) + '0');
+			_putchar(',');
+			_putchar(' ');
+		}
 	}
 	_putchar('\n');
 	}
