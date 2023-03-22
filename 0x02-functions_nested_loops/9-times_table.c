@@ -25,6 +25,10 @@ void times_table(void)
 				_putchar(e + '0');
 				_putchar(d + '0');
 			}
+			else if (b == 0)
+			{
+				_putchar(c + '0');
+			}
 			else
 			{
 				_putchar(' ');
