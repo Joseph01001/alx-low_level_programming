@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  *print_line - runtime starts here
- *
+ *@n: conditional parameter
  *Description: function that draws a straight line in the terminal
  *Return: return is voided
  */
