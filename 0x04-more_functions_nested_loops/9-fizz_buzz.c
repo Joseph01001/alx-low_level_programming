@@ -1,4 +1,3 @@
-#include "main.h"
 #include <stdio.h>
 /**
  *main - runtime starts here
@@ -14,23 +13,23 @@ int main(void)
 	{
 		if (range % 3 == 0 && range % 5 != 0)
 		{
-			printf("Fuzz ");
+			printf(" Fizz");
 		}
 		else if (range % 5 == 0 && range % 3 != 0)
 		{
-			printf("Buzz ");
+			printf(" Buzz");
 		}
 		else if (range % 15 == 0)
 		{
-			printf("FizzBuzz ");
+			printf(" FizzBuzz");
 		}
 		else if (range == 1)
 		{
-			printf("%d ", range);
+			printf("%d", range);
 		}
 		else
 		{
-			printf("%d ", range);
+			printf(" %d", range);
 		}
 	}
 	printf("\n");
