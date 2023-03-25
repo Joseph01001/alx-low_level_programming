@@ -3,9 +3,7 @@
 /**
  *main - runtime starts here
  *
- *Description: for multiples of three print Fizz
- * for the multiples of five print Buzz
- * for numbers which are multiples of both three and five print FizzBuzz
+ *Description: FizzBuzz exercise
  *Return: return is always 0
  */
 int main(void)
