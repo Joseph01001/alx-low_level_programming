@@ -14,7 +14,7 @@ int main(void)
 	{
 		if (range % 3 == 0 && range % 5 != 0)
 		{
-			printf("Fizz ");
+			printf("Fuzz ");
 		}
 		else if (range % 5 == 0 && range % 3 != 0)
 		{
