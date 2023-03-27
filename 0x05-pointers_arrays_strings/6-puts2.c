@@ -11,7 +11,7 @@ void puts2(char *str)
 	int length;
 	int bounds;
 	int string_call;
-	char *string;
+	char *string = str;
 
 	length = 0;
 	string_call = 0;
