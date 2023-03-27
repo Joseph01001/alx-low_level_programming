@@ -19,10 +19,10 @@ void rev_string(char *s)
 		length++;
 	}
 	for (bounds = 0; bounds < length; bounds++)
-		{
-			length--;
-			reverse = s[bounds];
-			s[bounds] = s[length];
-			s[length] = reverse;
-		}
+	{
+		length--;
+		reverse = s[bounds];
+		s[bounds] = s[length];
+		s[length] = reverse;
+	}
 }
